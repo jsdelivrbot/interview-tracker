@@ -1,0 +1,147 @@
+/* DEFAULT OVERRIDES */
+
+dl, ol, ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+li {
+  border-bottom: 1px solid rgb(235, 231, 231);
+}
+
+li:hover {
+  background-color: rgb(247, 246, 246);
+}
+
+li.selected {
+  background-color: rgb(242, 237, 237);
+}
+
+/* LAYOUT */
+
+.flex {
+  display: flex;
+}
+
+.flex-space-around {
+  justify-content: space-between;
+}
+
+.jc-flex-end {
+  justify-content: flex-end;
+}
+
+.mla {
+  margin-left: auto;
+}
+
+/* CUSTOM CLASSE */
+
+.cell {
+  padding: 22px 15px;
+}
+
+.root {
+  background-color: #ecebeb;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.global-header {
+  background-color: rgb(245, 245, 245);
+  height: 50px;
+}
+
+div.card {
+  background-color: white;
+  border-radius: 0px !important;
+  border: none !important;
+  box-shadow: 2px 2px 1px rgba(125, 125, 125, 0.46);
+}
+
+.sidebar {
+  overflow-y: auto;
+}
+
+.section-header {
+  padding: 2px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+.cell-title {
+  color: black;
+  font-size: 17px;
+}
+
+.cell-subtitle {
+  color: #828282;
+  font-size: 13px;
+}
+
+.cell-right-detail-text {
+  color: #BDBDBD;
+  font-size: 13px;
+}
+
+.position-header-title {
+  color: black;
+  font-size: 23px;
+}
+
+.position-header-subtitle {
+  color: #828282;
+  font-size: 17px;
+}
+
+.position-header-right-detail-text {
+  color: #828282;
+  font-size: 13px;
+}
+
+/* BOOTSTRAP OVERRIDES */
+.form-control {
+  border-radius: 0;
+}
+
+.control-label {
+  color: #828282;
+  font-size: 13px;
+}
+
+.btn {
+  border-radius: 0;
+  border: none;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #3cb0fa;
+}
+
+.btn-default {
+  color: #828282;
+  background: #E0E0E0;
+}
+
+div button:nth-child(n+2) {
+  margin-left: 7px;
+}
+
+.tag {
+  font-size: 13px;
+  padding: 2px 8px;
+  color: white;
+  border-radius: 3px;
+}
+
+/* COLOR-RAMA! */
+.recently-completed, .success { background-color: #00D6FF; }
+.passed, .ready-for-next-round { background-color: #00E36D; }
+.rejected { background-color: #EB5757; }
+.future, .next { background-color: #9B51E0; }
+.accepted, .unclaimed, .money { background-color: #87ED04; }
+.declined { background-color: #F2C94C; }
+.terminated { background-color: #BDBDBD; }
+.current, .save-position { background-color: #4F4F4F; }
